@@ -10,7 +10,7 @@
 ## Vorraussetzungen 
 
 * Der Umgang mit einfachen Heat-Templates, wie [in den ersten Schritten](01-firststeps/) gezeigt, wird vorausgesetzt.
-* Grundlagen zur Bedienung des OpenStack CLI (Umgebungsvariablen gesetzt, wie im [Kickstart-Tutorial](02-kickstart/) beschrieben.
+* Grundlagen zur Bedienung des OpenStack CLI (Umgebungsvariablen gesetzt, wie im [Kickstart-Tutorial](02-kickstart/) ) beschrieben.
 
 ## Optional: Temporäre Arbeitsumgebung
 
@@ -54,7 +54,7 @@ Nun kann der Snapshot heruntergeladen werden. Dies kann eine Weile dauern.
 $ openstack image save --file snapshot.qcow2 <snapshot name>
 ```
 
-Auf das Dateisystem kann nun mit nbd:
+Auf das Dateisystem kann nun mit nbd zugegriffen werden:
 
 ```
 $ sudo apt-get install -y qemu-utils
